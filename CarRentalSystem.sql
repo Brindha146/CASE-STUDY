@@ -1,4 +1,7 @@
 -- SQL Schema
+CREATE DATABASE CarRentalSystem;
+
+-- Create Tables
 CREATE TABLE VehicleTable (
     vehicleID INT IDENTITY(1,1) PRIMARY KEY,
     make VARCHAR(255),
